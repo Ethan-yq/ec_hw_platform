@@ -53,7 +53,9 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
+void buzzer_on(uint16_t psc,uint16_t pwm);
 
+void canFilterInit(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
@@ -85,8 +87,6 @@ void Error_Handler(void);
 #define UART1_TX_GPIO_Port GPIOA
 #define TIM3_CH3_Pin GPIO_PIN_8
 #define TIM3_CH3_GPIO_Port GPIOC
-#define TIM8_CH1_Pin GPIO_PIN_6
-#define TIM8_CH1_GPIO_Port GPIOC
 #define LED_R_Pin GPIO_PIN_12
 #define LED_R_GPIO_Port GPIOH
 #define ADC_BAT_Pin GPIO_PIN_10
