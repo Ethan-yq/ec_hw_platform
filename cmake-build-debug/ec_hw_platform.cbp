@@ -174,10 +174,19 @@
 		<Unit filename="D:/JL_code/ec_hw_platform/Core/Startup/startup_stm32f407ighx.s">
 			<Option target="ec_hw_platform.elf"/>
 		</Unit>
+		<Unit filename="D:/JL_code/ec_hw_platform/Core/app/control.cpp">
+			<Option target="ec_hw_platform.elf"/>
+		</Unit>
+		<Unit filename="D:/JL_code/ec_hw_platform/Core/app/control.h">
+			<Option target="ec_hw_platform.elf"/>
+		</Unit>
 		<Unit filename="D:/JL_code/ec_hw_platform/Core/base/remote/remote.cpp">
 			<Option target="ec_hw_platform.elf"/>
 		</Unit>
 		<Unit filename="D:/JL_code/ec_hw_platform/Core/base/remote/remote.h">
+			<Option target="ec_hw_platform.elf"/>
+		</Unit>
+		<Unit filename="D:/JL_code/ec_hw_platform/Core/bsp/board/struct_typedef.h">
 			<Option target="ec_hw_platform.elf"/>
 		</Unit>
 		<Unit filename="D:/JL_code/ec_hw_platform/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">

@@ -28,7 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 66,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
@@ -41,12 +47,6 @@
 				"command" : 1,
 				"file" : 0,
 				"line" : 63,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 64,
 				"parent" : 0
 			},
 			{
@@ -195,9 +195,6 @@
 				22,
 				23,
 				24,
-				91,
-				92,
-				93,
 				94,
 				95,
 				96,
@@ -216,7 +213,10 @@
 				109,
 				110,
 				111,
-				112
+				112,
+				113,
+				114,
+				115
 			]
 		},
 		{
@@ -406,7 +406,8 @@
 			},
 			"sourceIndexes" : 
 			[
-				26
+				26,
+				28
 			]
 		}
 	],
@@ -455,12 +456,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "Core/base/remote/remote.h",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "Core/base/remote/remote.cpp",
+				"fragment" : "Core/app/control.cpp",
 				"role" : "flags"
 			}
 		],
@@ -491,12 +487,11 @@
 				9,
 				10,
 				27,
-				28,
 				29,
 				30,
+				31,
 				32,
 				33,
-				34,
 				35,
 				36,
 				37,
@@ -515,9 +510,9 @@
 				50,
 				51,
 				52,
+				53,
 				54,
 				55,
-				56,
 				57,
 				58,
 				59,
@@ -550,7 +545,10 @@
 				86,
 				87,
 				88,
-				89
+				89,
+				90,
+				91,
+				92
 			]
 		},
 		{
@@ -572,9 +570,7 @@
 				23,
 				24,
 				26,
-				91,
-				92,
-				93,
+				28,
 				94,
 				95,
 				96,
@@ -593,7 +589,10 @@
 				109,
 				110,
 				111,
-				112
+				112,
+				113,
+				114,
+				115
 			]
 		},
 		{
@@ -601,10 +600,10 @@
 			"sourceIndexes" : 
 			[
 				25,
-				31,
-				53,
-				90,
-				113
+				34,
+				56,
+				93,
+				116
 			]
 		}
 	],
@@ -758,12 +757,28 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 2,
+			"path" : "Core/app/control.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/app/control.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
 			"path" : "Core/base/remote/remote.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"path" : "Core/base/remote/remote.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/bsp/board/struct_typedef.h",
 			"sourceGroupIndex" : 0
 		},
 		{

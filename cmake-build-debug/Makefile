@@ -472,6 +472,30 @@ Core/Startup/startup_stm32f407ighx.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ec_hw_platform.elf.dir\build.make CMakeFiles/ec_hw_platform.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj
 .PHONY : Core/Startup/startup_stm32f407ighx.s.obj
 
+Core/app/control.obj: Core/app/control.cpp.obj
+.PHONY : Core/app/control.obj
+
+# target to build an object file
+Core/app/control.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ec_hw_platform.elf.dir\build.make CMakeFiles/ec_hw_platform.elf.dir/Core/app/control.cpp.obj
+.PHONY : Core/app/control.cpp.obj
+
+Core/app/control.i: Core/app/control.cpp.i
+.PHONY : Core/app/control.i
+
+# target to preprocess a source file
+Core/app/control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ec_hw_platform.elf.dir\build.make CMakeFiles/ec_hw_platform.elf.dir/Core/app/control.cpp.i
+.PHONY : Core/app/control.cpp.i
+
+Core/app/control.s: Core/app/control.cpp.s
+.PHONY : Core/app/control.s
+
+# target to generate assembly for a file
+Core/app/control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ec_hw_platform.elf.dir\build.make CMakeFiles/ec_hw_platform.elf.dir/Core/app/control.cpp.s
+.PHONY : Core/app/control.cpp.s
+
 Core/base/remote/remote.obj: Core/base/remote/remote.cpp.obj
 .PHONY : Core/base/remote/remote.obj
 
@@ -1076,6 +1100,9 @@ help:
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
 	@echo ... Core/Startup/startup_stm32f407ighx.obj
+	@echo ... Core/app/control.obj
+	@echo ... Core/app/control.i
+	@echo ... Core/app/control.s
 	@echo ... Core/base/remote/remote.obj
 	@echo ... Core/base/remote/remote.i
 	@echo ... Core/base/remote/remote.s

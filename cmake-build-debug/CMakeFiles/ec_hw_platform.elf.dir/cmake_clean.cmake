@@ -28,6 +28,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ec_hw_platform.elf.dir/Core/Src/usart.c.obj"
   "CMakeFiles/ec_hw_platform.elf.dir/Core/Src/usart.c.obj.d"
   "CMakeFiles/ec_hw_platform.elf.dir/Core/Startup/startup_stm32f407ighx.s.obj"
+  "CMakeFiles/ec_hw_platform.elf.dir/Core/app/control.cpp.obj"
+  "CMakeFiles/ec_hw_platform.elf.dir/Core/app/control.cpp.obj.d"
   "CMakeFiles/ec_hw_platform.elf.dir/Core/base/remote/remote.cpp.obj"
   "CMakeFiles/ec_hw_platform.elf.dir/Core/base/remote/remote.cpp.obj.d"
   "CMakeFiles/ec_hw_platform.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"

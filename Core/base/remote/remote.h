@@ -4,13 +4,13 @@
 
 #ifndef EC_HW_PLATFORM_REMOTE_H
 #define EC_HW_PLATFORM_REMOTE_H
-#include "base/common/connect.h"
+//#include "base/common/connect.h"
 #include "usart.h"
+//#include "bsp/board/struct_typedef.h"
 
 #define RC_RX_BUF_SIZE 36u
 #define RC_FRAME_LEN 18u
 
-typedef uint16_t RCKey;
 
 class RC {
 public:
@@ -31,10 +31,9 @@ public:
     bool uartCheck(UART_HandleTypeDef* huart) { return huart == huart_; }
     void rxCallback(void);
     void idleCallback(void);
-    void updateKeyState(void);
 public:
     // connect state 遥控器连接状态
-    Connect connect_;
+//    Connect connect_;
 
     // remote channel 遥控器通道
     struct RCChannel {
@@ -42,7 +41,7 @@ public:
         int16_t r_col;
         int16_t l_row;
         int16_t l_col;
-        int16_t dial_wheel;
+//        int16_t dial_wheel;
     } channel_;
 
     // remote switch 遥控器拨挡
@@ -50,7 +49,6 @@ public:
         RCSwitchState_e l;
         RCSwitchState_e r;
     } switch_;
-    RCKey key_;
 
 
 private:
@@ -63,4 +61,5 @@ private:
         uint8_t s[2];
     } rc_raw_;
 };
+
 #endif //EC_HW_PLATFORM_REMOTE_H

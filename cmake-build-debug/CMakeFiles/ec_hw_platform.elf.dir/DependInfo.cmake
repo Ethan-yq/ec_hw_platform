@@ -66,6 +66,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/JL_code/ec_hw_platform/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "CMakeFiles/ec_hw_platform.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/ec_hw_platform.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
   "D:/JL_code/ec_hw_platform/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "CMakeFiles/ec_hw_platform.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" "gcc" "CMakeFiles/ec_hw_platform.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d"
   "D:/JL_code/ec_hw_platform/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c" "CMakeFiles/ec_hw_platform.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" "gcc" "CMakeFiles/ec_hw_platform.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj.d"
+  "D:/JL_code/ec_hw_platform/Core/app/control.cpp" "CMakeFiles/ec_hw_platform.elf.dir/Core/app/control.cpp.obj" "gcc" "CMakeFiles/ec_hw_platform.elf.dir/Core/app/control.cpp.obj.d"
   "D:/JL_code/ec_hw_platform/Core/base/remote/remote.cpp" "CMakeFiles/ec_hw_platform.elf.dir/Core/base/remote/remote.cpp.obj" "gcc" "CMakeFiles/ec_hw_platform.elf.dir/Core/base/remote/remote.cpp.obj.d"
   )
 
